@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +8,91 @@
     <link rel="stylesheet" href="css/style.css">
     <script>
         function pesquisar() {
-    var termo = document.getElementById('termoPesquisa').value.toLowerCase();
+            var termo = document.getElementById('termoPesquisa').value.toLowerCase();
 
-    // Lista de cantores e suas respectivas páginas
-    var cantores = {
-        'joao gomes': 'joaogomes.html',
-        'tarciso': 'tarcisoacodeon.html',
-        'wesley safadao': 'wesleyprincipal.html',
-        'nadson': 'nadson.html',
-        'devinho novaes': 'devinhomoraes.html',
-        'banda magnificos': 'magnificos.html',
-        'iguinho e lulinha': 'origins.html',
-        'solange almeida': 'solange.html',
-        'desejo de menina': 'desejo.html',
-        'caio costa': 'caiocosta.html',
-        'rafinha big love': 'rafinhabiglove.html',
-        'felipe amorin': 'felipeamorin.html',
-        'banda encantus':'encantus.html',
-        'forro': '/forro.html'
-    };
+            // Lista de cantores e suas respectivas páginas
+            var cantores = {
+                'joao gomes': 'joaogomes.html',
+                'tarciso': 'tarcisoacodeon.html',
+                'wesley safadao': 'wesleyprincipal.html',
+                'nadson': 'nadson.html',
+                'devinho novaes': 'devinhomoraes.html',
+                'banda magnificos': 'magnificos.html',
+                'iguinho e lulinha': 'origins.html',
+                'solange almeida': 'solange.html',
+                'desejo de menina': 'desejo.html',
+                'caio costa': 'caiocosta.html',
+                'rafinha big love': 'rafinhabiglove.html',
+                'felipe amorin': 'felipeamorin.html',
+                'banda encantus': 'encantus.html',
+                'forro': '/forro.html'
+            };
 
-    // Verifica se o termo de pesquisa corresponde a algum cantor
-    var cantorEncontrado = Object.keys(cantores).find(function(cantor) {
-        return cantor.includes(termo);
-    });
+            // Verifica se o termo de pesquisa corresponde a algum cantor
+            var cantorEncontrado = Object.keys(cantores).find(function (cantor) {
+                return cantor.includes(termo);
+            });
 
-    if (cantorEncontrado) {
-        // Abre a página correspondente ao cantor encontrado
-        window.open(cantores[cantorEncontrado], '_blank');
-    } else {
-        // Informa ao usuário que o cantor não foi encontrado
-        alert('Cantor não encontrado.');
-    }
-}
+            if (cantorEncontrado) {
+                // Abre a página correspondente ao cantor encontrado
+                window.open(cantores[cantorEncontrado], '_blank');
+            } else {
+                // Informa ao usuário que o cantor não foi encontrado
+                alert('Cantor não encontrado.');
+            }
+        }
 
-        
+
     </script>
 </head>
+
 <body style="padding-bottom :500px;">
     <div class="container">
         <img class="logo" src="paghtml/img/ed.png">
     </div>
-   <h1>Sejam Bem-Vindos ao melhor site de musicas da internet</h1>
-   <form class="pesquisar">
-    <input type="search" id="termoPesquisa" placeholder="cantor/banda/estilo">
-    <button type="button" onclick="pesquisar()">Buscar</button>
-</form>
+    <h1>Sejam Bem-Vindos ao melhor site de musicas da internet</h1>
+    <form class="pesquisar">
+        <input type="search" id="termoPesquisa" placeholder="cantor/banda/estilo">
+        <button type="button" onclick="pesquisar()">Buscar</button>
+    </form>
 
-   <div class="grade">
-    <a href="tarcisoacodeon.html" target="_blank"><img src="paghtml/cds/CD TOME FORRÓ - Tarcísio do Acordeon/CD TOME FORRÓ - Tarcísio do Acordeon/cover.jpg"></a>
-    <a href="weslwysafadao.html" target="_blank"><img src="paghtml/CDs/weslwy safadao/Wesley Safadão - Pronto, Preparado e Querendo/Capa - Wesley Safadão - Pronto, Preparado e Querendo.png"></a>
-    <a href="devinhomoraes.html" target="_blank"><img src="paghtml/img/cd_cover.jpeg"></a>
-    <a href="caiocosta.html" target="_blank"><img src="paghtml/img/caiocosta.jpg"></a>
-    <a href="joaogomes.html" target="_blank"><img src="paghtml/img/500x500-000000-80-0-0.jpg"></a>
-    <a href="rafinhabiglove.html" target="_blank"><img src="paghtml/img/dd.jpeg"></a>
-    <a href="desejo.html" target="_blank"><img src="paghtml/img/desejo-de-menina-o-bau-da-desejo-2.webp"></a>
-    <a href="felipeamorin.html" target="_blank"><img src="https://baixarpagode.net/wp-content/uploads/2023/08/Baixar-CD-Felipe-Amorim-%E2%80%93-Cade-o-After-Pt-1-2023-gratis.webp"></a>
+    <div class="grade">
+        <a href="tarcisoacodeon.html" target="_blank"><img
+                src="paghtml/cds/CD TOME FORRÓ - Tarcísio do Acordeon/CD TOME FORRÓ - Tarcísio do Acordeon/cover.jpg"></a>
+        <a href="weslwysafadao.html" target="_blank"><img
+                src="paghtml/cds/wesleysafadao/Wesley Safadão - Pronto, Preparado e Querendo/Capa - Wesley Safadão - Pronto, Preparado e Querendo.png"></a>
+        <a href="devinhomoraes.html" target="_blank"><img src="paghtml/img/cd_cover.jpeg"></a>
+        <a href="caiocosta.html" target="_blank"><img src="paghtml/img/caiocosta.jpg"></a>
+        <a href="joaogomes.html" target="_blank"><img src="paghtml/img/500x500-000000-80-0-0.jpg"></a>
+        <a href="rafinhabiglove.html" target="_blank"><img src="paghtml/img/dd.jpeg"></a>
+        <a href="desejo.html" target="_blank"><img src="paghtml/img/desejo-de-menina-o-bau-da-desejo-2.webp"></a>
+        <a href="felipeamorin.html" target="_blank"><img
+                src="https://baixarpagode.net/wp-content/uploads/2023/08/Baixar-CD-Felipe-Amorim-%E2%80%93-Cade-o-After-Pt-1-2023-gratis.webp"></a>
 
-   </div>
-   <hr>
-   
-   <div class="containerestilo">
-    <h2 class="estilos">forro</h2>
-    <h2 class="estilos">sertanejo</h2>
-    <h2 class="estilos">pagode</h2>
-    <h2 class="estilos">gospel</h2>
-    <h2 class="estilos">Rap</h2>
-    <h2 class="estilos">pop</h2>
-</div>
+    </div>
+    <hr>
 
-   <hr>
-   <footer class="rodape">
-    <H5>Siga a Nossa Empresa Nas Redes Sociais</H5>
-    <nav class="botao-instagram"><a href="https://instagram.com/nelsonn_jr_?igshid=dXlyZXdiM2dseDgz"
-            target="_blank"><img
-                src="https://cdn.icon-icons.com/icons2/1753/PNG/64/iconfinder-social-media-applications-3instagram-4102579_113804.png"
-                alt="instagram"></a></nav>
-    
-    <br />
-    <h6>Organizaçao Nelson e AM Gravações</h6>
-</footer>
-    
+    <div class="containerestilo">
+        <h2 class="estilos">forro</h2>
+        <h2 class="estilos">sertanejo</h2>
+        <h2 class="estilos">pagode</h2>
+        <h2 class="estilos">gospel</h2>
+        <h2 class="estilos">Rap</h2>
+        <h2 class="estilos">pop</h2>
+    </div>
+
+    <hr>
+    <footer class="rodape">
+        <H5>Siga a Nossa Empresa Nas Redes Sociais</H5>
+        <nav class="botao-instagram"><a href="https://instagram.com/nelsonn_jr_?igshid=dXlyZXdiM2dseDgz"
+                target="_blank"><img
+                    src="https://cdn.icon-icons.com/icons2/1753/PNG/64/iconfinder-social-media-applications-3instagram-4102579_113804.png"
+                    alt="instagram"></a></nav>
+
+        <br />
+        <h6>Organizaçao Nelson e AM Gravações</h6>
+    </footer>
+
 </body>
+
 </html>
