@@ -116,8 +116,9 @@ audio{
     border: none;
 }
 .container {
-    width: 100%;
+    width: auto;
     margin: auto;
+    height: 340px;
     overflow: hidden;
 }
 .container img {
@@ -149,4 +150,10 @@ audio{
 }
 .button-container1{
     text-align: center;
+}
+.logo{
+    width: auto;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; 
 }
