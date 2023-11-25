@@ -151,9 +151,46 @@ audio{
 .button-container1{
     text-align: center;
 }
-.logo{
+.logoam{
     width: auto;
     max-height: 100%;
     display: block;
     margin: 0 auto; 
+}
+.navpesquisa {
+    background-color:#555;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: 50px; /* Ajuste a altura conforme necessário */
+    border-radius: 50px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
 }
