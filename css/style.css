@@ -158,7 +158,7 @@ audio{
     margin: 0 auto; 
 }
 .navpesquisa {
-    background-color:#555;
+    background-color:darkgrey;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -166,7 +166,7 @@ audio{
     color: white;
 }
 
-.logo {
+.logopesquisa {
     width: 50px; /* Ajuste a largura conforme necessário */
     height: 50px; /* Ajuste a altura conforme necessário */
     border-radius: 50px;
