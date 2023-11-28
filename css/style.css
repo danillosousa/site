@@ -118,7 +118,7 @@ audio{
 .container {
     width: auto;
     margin: auto;
-    height: 340px;
+    height: auto;
     overflow: hidden;
 }
 .container img {
